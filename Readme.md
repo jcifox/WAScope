@@ -6,7 +6,7 @@
 
 `/requirments.txt`
 
-`pip install -r requirments.txt`
+`pip install -r requirements.txt`
 
 ## Browser configuration
 
