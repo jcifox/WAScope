@@ -1,5 +1,5 @@
 # WAScope: Detecting Privacy Data Leakage with Web Application-Specific API Confusion
-[![DOI](https://img.shields.io/badge/DOI-10.1016/j.aej.2025.08.006-blue)](https://doi.org/10.1016/j.aej.2025.08.006)
+<a href="https://doi.org/10.1016/j.aej.2025.08.006"><img src="https://img.shields.io/badge/DOI-10.1016/j.aej.2025.08.006-blue" target="_blank"></a>
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
