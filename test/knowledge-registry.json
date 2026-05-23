@@ -1,0 +1,76 @@
+{
+  "id": "digital-trace-knowledge-registry",
+  "version": "0.1.0",
+  "description": "External knowledge pack registry for the local Digital Trace MVP.",
+  "storage_contract": {
+    "seed_packs": "Versioned JSON files under data/knowledge.",
+    "runtime_overlay": "Browser localStorage keeps learned case memory, human corrections, and customer-private additions.",
+    "future_storage": "SQLite/Postgres node-edge tables before any graph database is introduced."
+  },
+  "packs": [
+    {
+      "id": "global-business-logic-risk-graph",
+      "title": "Global Business Logic Risk Graph",
+      "scope": "global",
+      "path": "./data/knowledge/global-business-logic-risk-graph.json",
+      "seedModes": ["low", "high"],
+      "enabled": true
+    },
+    {
+      "id": "ecommerce-risk-pack",
+      "title": "Ecommerce Risk Pack",
+      "scope": "industry",
+      "path": "./data/knowledge/ecommerce-risk-pack.json",
+      "seedModes": ["low", "high"],
+      "enabled": true
+    },
+    {
+      "id": "rebate-risk-pack",
+      "title": "Rebate Arbitrage Risk Pack",
+      "scope": "industry",
+      "path": "./data/knowledge/rebate-risk-pack.json",
+      "seedModes": ["high"],
+      "enabled": true
+    },
+    {
+      "id": "approval-risk-pack",
+      "title": "Approval Workflow Risk Pack",
+      "scope": "industry",
+      "path": "./data/knowledge/approval-risk-pack.json",
+      "seedModes": ["low", "high"],
+      "enabled": true
+    },
+    {
+      "id": "refund-risk-pack",
+      "title": "Refund Control Risk Pack",
+      "scope": "industry",
+      "path": "./data/knowledge/refund-risk-pack.json",
+      "seedModes": ["low", "high"],
+      "enabled": true
+    },
+    {
+      "id": "tenant-boundary-risk-pack",
+      "title": "Tenant Boundary Risk Pack",
+      "scope": "industry",
+      "path": "./data/knowledge/tenant-boundary-risk-pack.json",
+      "seedModes": ["low", "high"],
+      "enabled": true
+    },
+    {
+      "id": "workflow-order-risk-pack",
+      "title": "Workflow Order Risk Pack",
+      "scope": "industry",
+      "path": "./data/knowledge/workflow-order-risk-pack.json",
+      "seedModes": ["low", "high"],
+      "enabled": true
+    },
+    {
+      "id": "agent-tool-risk-pack",
+      "title": "AI Agent Tool Risk Pack",
+      "scope": "industry",
+      "path": "./data/knowledge/agent-tool-risk-pack.json",
+      "seedModes": ["low", "high"],
+      "enabled": true
+    }
+  ]
+}
